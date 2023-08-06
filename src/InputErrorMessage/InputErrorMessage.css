@@ -1,0 +1,6 @@
+.InputErrorMessage{
+    color: crimson;
+    font-size: 10px;
+    width: 100%;
+    font-family: monospace;
+}

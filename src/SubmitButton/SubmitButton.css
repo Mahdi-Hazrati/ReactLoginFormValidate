@@ -1,0 +1,36 @@
+.submit-button {
+    width: 300px;
+    height: 40px;
+    display: flex;
+    padding: 10px 80px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: linear-gradient(
+        90deg,
+        #1da684 0%,
+        rgba(190, 220, 124, 0.99) 100%
+    );
+    border-radius: 10px;
+    border: 0;
+    color: white;
+    font-family: inherit;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1px;
+    transition: 0.2s all;
+    text-transform: capitalize;
+    
+}
+.submit-button:hover{
+    cursor: pointer;
+    filter: brightness(95%);
+}
+/* disabled style */
+.submit-button.disabled{
+    filter: brightness(80%);
+    cursor: not-allowed;
+    
+}
